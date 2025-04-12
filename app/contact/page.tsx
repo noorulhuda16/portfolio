@@ -74,7 +74,7 @@ export default function Contact() {
           className="text-xl text-center text-slate-700 mb-12 max-w-md mx-auto"
           variants={fadeInUp}
         >
-          Have a project in mind or want to collaborate? I'd love to hear from you!
+          Have a project in mind or want to collaborate? I&apos;d love to hear from you!
         </motion.p>
 
         <motion.div 
@@ -95,7 +95,7 @@ export default function Contact() {
                 <CheckCircle className="h-10 w-10 text-green-600" />
               </div>
               <h2 className="text-2xl font-bold text-slate-800 mb-4">Message Sent!</h2>
-              <p className="text-slate-600 mb-8">Thank you for reaching out. I'll get back to you as soon as possible.</p>
+              <p className="text-slate-600 mb-8">Thank you for reaching out. I&apos;ll get back to you as soon as possible.</p>
               <button 
                 onClick={() => setIsSubmitted(false)}
                 className="fancy-button inline-flex items-center"
@@ -121,7 +121,7 @@ export default function Contact() {
                       value={formData.name}
                       onChange={handleChange}
                       className="pl-10 block w-full rounded-md border-0 py-3.5 text-slate-900 shadow-sm ring-1 ring-inset ring-slate-300 placeholder:text-slate-400 focus:ring-2 focus:ring-inset focus:ring-blue-500 transition-all"
-                      placeholder="John Doe"
+                      placeholder="Enter your name please"
                       required
                     />
                   </div>
@@ -142,7 +142,7 @@ export default function Contact() {
                       value={formData.email}
                       onChange={handleChange}
                       className="pl-10 block w-full rounded-md border-0 py-3.5 text-slate-900 shadow-sm ring-1 ring-inset ring-slate-300 placeholder:text-slate-400 focus:ring-2 focus:ring-inset focus:ring-blue-500 transition-all"
-                      placeholder="john@example.com"
+                      placeholder="youremail@example.com"
                       required
                     />
                   </div>

@@ -13,8 +13,8 @@ import {
   Target,
   Trophy,
   Globe,
-  Layout,
-  Zap,
+  // Layout,
+  // Zap,
   Palette,
   Type,
   Code,
@@ -34,25 +34,25 @@ const fadeInUp = {
   transition: { duration: 0.6 },
 }
 
-const fadeIn = {
-  initial: { opacity: 0 },
-  animate: { opacity: 1 },
-  transition: { duration: 0.8 },
-}
+// const fadeIn = {
+//   initial: { opacity: 0 },
+//   animate: { opacity: 1 },
+//   transition: { duration: 0.8 },
+// }
 
-const staggerContainer = {
-  animate: {
-    transition: {
-      staggerChildren: 0.1,
-    },
-  },
-}
+// const staggerContainer = {
+//   animate: {
+//     transition: {
+//       staggerChildren: 0.1,
+//     },
+//   },
+// }
 
-const scaleIn = {
-  initial: { opacity: 0, scale: 0.8 },
-  animate: { opacity: 1, scale: 1 },
-  transition: { duration: 0.6 },
-}
+// const scaleIn = {
+//   initial: { opacity: 0, scale: 0.8 },
+//   animate: { opacity: 1, scale: 1 },
+//   transition: { duration: 0.6 },
+// }
 
 interface CaseStudyProps {
   params: Promise<{
@@ -479,11 +479,11 @@ export default function CaseStudy({ params }: CaseStudyProps) {
   const projectId = Number.parseInt(id, 10)
   const project = projects.find((p) => p.id === projectId)
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
-  const [isPlaying, setIsPlaying] = useState(false)
+  // const [isPlaying, setIsPlaying] = useState(false)
   const [carouselIndex, setCarouselIndex] = useState(0)
-  const [videoAdded, setVideoAdded] = useState(false)
+  // const [videoAdded, setVideoAdded] = useState(false)
   const [prototypeCarouselIndex, setPrototypeCarouselIndex] = useState(0)
-  const [videoIndex, setVideoIndex] = useState(0)
+  // const [videoIndex, setVideoIndex] = useState(0)
 
   // Update the lightbox to include carousel functionality
   // Replace the existing lightbox code with this enhanced version
@@ -602,18 +602,18 @@ export default function CaseStudy({ params }: CaseStudyProps) {
     }
   }
 
-  const addVideo = () => {
-    if (project) {
-      // In a real implementation, you would handle the video path differently
-      // For demo purposes, we'll just update the UI
-      if (project.category === "wordpress") {
-        project.projectVideos = [...(project.projectVideos || [])]
-      } else if (project.category === "label") {
-        project.projectVideos = [...(project.projectVideos || [])]
-      }
-      setVideoAdded(true)
-    }
-  }
+  // const addVideo = () => {
+  //   if (project) {
+  //     // In a real implementation, you would handle the video path differently
+  //     // For demo purposes, we'll just update the UI
+  //     if (project.category === "wordpress") {
+  //       project.projectVideos = [...(project.projectVideos || [])]
+  //     } else if (project.category === "label") {
+  //       project.projectVideos = [...(project.projectVideos || [])]
+  //     }
+  //     setVideoAdded(true)
+  //   }
+  // }
 
   // Update the project data for ID 9 and 10 to match the specifications
   // For project ID 9 (Shower Gel):

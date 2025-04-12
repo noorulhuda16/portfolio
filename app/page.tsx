@@ -103,8 +103,8 @@ export default function Home() {
               <h2 className="text-3xl font-bold mb-8 text-left gradient-text">About Me</h2>
 
               <p className="text-lg mb-6 text-foreground">
-                I'm a recent Software Engineering graduate and a passionate designer and developer with a keen eye for detail and a love for creating intuitive,
-                user-friendly designs. I'm eager to turn my skills into impactful projects and dedicated to delivering user-friendly, well-designed websites tailored to your needs.
+                I&apos;m a recent Software Engineering graduate and a passionate designer and developer with a keen eye for detail and a love for creating intuitive,
+                user-friendly designs. I&apos;m eager to turn my skills into impactful projects and dedicated to delivering user-friendly, well-designed websites tailored to your needs.
               </p>
 
               <h3 className="text-2xl font-bold mb-4 gradient-text">Why Hire Me?</h3>
