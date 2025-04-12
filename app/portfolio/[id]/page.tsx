@@ -65,7 +65,7 @@ const projects = [
   // UI/UX Projects (existing)
   {
     id: 2,
-    title: "Pizza Hub",
+    title: "Pizza Hub Mobile Application",
     category: "uiux",
     challenge:
       "Creating a pizza customization experience that wouldn't overwhelm users with too many choices at once. We needed to break down the process into digestible steps while maintaining visual appeal and ensuring users could easily track their selections and pricing.",
@@ -100,7 +100,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Yummy Sweet Treats",
+    title: "Yummy - Sweet Treats & Delights",
     category: "uiux",
     challenge:
       "One of the key challenges was to establish a distinct visual identity that reflects the brand’s fun and indulgent nature while maintaining a professional appearance. The website needed to offer a smooth and intuitive navigation experience, allowing users to explore the menu easily and find their favorite donuts. Additionally, clear call-to-action buttons were necessary to drive conversions without overwhelming the user with too many choices.",
@@ -144,7 +144,7 @@ const projects = [
     challenge: "Developing a visually stunning and performant WordPress theme for a high-traffic travel blog.",
     solution: "Created a custom theme with optimized images, lazy loading, and a content-first approach.",
     outcome: "Improved page load times by 50% and increased average time on site by 3 minutes.",
-    technologies: ["WordPress", "PHP", "JavaScript", "SASS"],
+    technologies: ["Canva", "Figma"],
     images: ["/images/projects/4.png"],
     // prototypeUrl:
     //   "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyourPrototypeId",
@@ -338,7 +338,7 @@ const projects = [
       "/images/projects/blog-15.png",
       "/images/projects/blog-16.png",
     ],
-    liveUrl: "https://dailyscroll-demo.com",
+    liveUrl: "https://thedailyscrolll.netlify.app/localhost/tds/index.html",
     overview:
       "The Daily Scroll is a modern news blog built on WordPress that delivers the latest stories across various categories. The custom theme was designed to optimize content delivery while maintaining fast load times even with high traffic volumes.",
     colorPalette: [
@@ -388,7 +388,7 @@ const projects = [
       "/images/projects/photo-15.png",
       "/images/projects/photo-16.png",
     ],
-    liveUrl: "https://jacqueline-photography-demo.com",
+    liveUrl: "https://jacquelinephotography.netlify.app/localhost/jphoto/index.html",
     overview:
       "This elegant photography portfolio website was developed using WordPress to showcase a diverse range of photography services and portfolio pieces. The site features a clean, minimalist design that puts the focus on the imagery while maintaining a sophisticated brand identity through consistent typography and color choices. The layout effectively guides visitors through the photographer's work and service offerings with intuitive navigation.",
     colorPalette: [
@@ -1703,18 +1703,23 @@ export default function CaseStudy({ params }: CaseStudyProps) {
 
         {/* Request Figma File Button - For UI/UX category only */}
         {project.category === "uiux" && (
-          <motion.section className="mb-16 text-center" initial="initial" animate="animate" variants={fadeInUp}>
-            <motion.button
-              className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-xl shadow-lg transition-colors duration-300 flex items-center mx-auto mb-4"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <FileText className="w-5 h-5 mr-2" />
-              Request Figma File
-            </motion.button>
-            <p className="text-slate-600">Get the fully editable figma file for ${project.id * 10} dollars</p>
-          </motion.section>
-        )}
+  <motion.section className="mb-16 text-center" initial="initial" animate="animate" variants={fadeInUp}>
+    <a
+      href={`mailto:nurdesignportfolio@gmail.com?subject=Request for Figma File&body=Hello, I am interested in getting your editable figma files for the project ${project.title}`}
+    >
+      <motion.button
+        className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-xl shadow-lg transition-colors duration-300 flex items-center mx-auto mb-4"
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+      >
+        <FileText className="w-5 h-5 mr-2" />
+        Request Figma File
+      </motion.button>
+    </a>
+    <p className="text-slate-600">Buy the fully editable figma file </p>
+  </motion.section>
+)}
+
 
         {/* Prototype Image Lightbox */}
         {prototypeImageLightboxOpen && project && project.prototypeImages && (

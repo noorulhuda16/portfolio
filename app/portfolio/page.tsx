@@ -28,14 +28,14 @@ const projects = [
     category: "uiux",
     description: "A seamless, mouthwatering pizza ordering experience with an intuitive and modern UI/UX design. ",
   },
-  { id: 3, title: "Yummy – Sweet Treats, Easy Orders", category: "uiux", description: " A delightful and visually tempting donut shop website for effortless browsing, ordering, and cravings satisfaction." },
-  { id: 4, title: "Mosaica – Explore & Admire Timeless Art", category: "uiux", description: "A beautifully designed landing page for art gallery." },
+  { id: 3, title: "Yummy – Website Design for Donut Shop", category: "uiux", description: " A delightful and visually tempting donut shop website for effortless browsing, ordering, and cravings satisfaction." },
+  { id: 4, title: "Mosaica – Art Gallery Website", category: "uiux", description: "A beautifully designed landing page for art gallery." },
   { id: 5, title: "Royal Retreat – Hotel Booking Website", category: "uiux", description: "A minimalist yet attractive landing page UI for a hotel. " },
-  { id: 6, title: "Brew – Perfect Coffee, Just a Tap Away", category: "uiux", description: "A sleek and cozy app for ordering your favorite brews." },
-  { id: 7, title: "The Daily Scroll – Stay Informed, Stay Ahead", category: "wordpress", description: "A modern and user-friendly news blog covering the latest stories, trends, and updates across all categories." },
-  { id: 8, title: "Jacqueline Photography - Capturing Moments, Telling Stories", category: "wordpress", description: "A visually captivating portfolio to showcase stunning photography with an elegant and immersive UI/UX. " },
-  { id: 9, title: "Blossom Bliss Shower Gel", category: "label", description: "A sleek, minimalistic design with a soft gradient of ocean blues and aqua tones, symbolizing freshness and hydration. " },
-  { id: 10, title: "Velare – Scented Candle", category: "label", description: "An elegant, minimalist aesthetic with a soft matte finish. " },
+  { id: 6, title: "Brew – Coffee Shop Website", category: "uiux", description: "A sleek and cozy app for ordering your favorite brews." },
+  { id: 7, title: "The Daily Scroll – Blog Wordpress Website ", category: "wordpress", description: "A modern and user-friendly news blog covering the latest stories, trends, and updates across all categories." },
+  { id: 8, title: "Jacqueline Photography Portfolio Website", category: "wordpress", description: "A visually captivating portfolio to showcase stunning photography with an elegant and immersive UI/UX. " },
+  { id: 9, title: "Blossom Bliss Shower Gel Label Design", category: "label", description: "A sleek, minimalistic design with a soft gradient of ocean blues and aqua tones, symbolizing freshness and hydration. " },
+  { id: 10, title: "Velare – Scented Candle Label Design", category: "label", description: "An elegant, minimalist aesthetic with a soft matte finish. " },
 
 
 ]

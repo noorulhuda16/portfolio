@@ -103,9 +103,8 @@ export default function Home() {
               <h2 className="text-3xl font-bold mb-8 text-left gradient-text">About Me</h2>
 
               <p className="text-lg mb-6 text-foreground">
-                I'm a passionate designer and developer with a keen eye for detail and a love for creating intuitive,
-                user-friendly designs. With years of experience in UI/UX design, WordPress development, and
-                React/Next.js, I bring a unique blend of creativity and technical expertise to every project.
+                I'm a recent Software Engineering graduate and a passionate designer and developer with a keen eye for detail and a love for creating intuitive,
+                user-friendly designs. I'm eager to turn my skills into impactful projects and dedicated to delivering user-friendly, well-designed websites tailored to your needs.
               </p>
 
               <h3 className="text-2xl font-bold mb-4 gradient-text">Why Hire Me?</h3>
@@ -117,7 +116,7 @@ export default function Home() {
                   transition={{ duration: 0.5 }}
                 >
                   <CheckCircle className="mr-2 text-accent" />
-                  <span>Proven track record of delivering high-quality, user-centric designs</span>
+                  <span>Offering realistic pricing that ensures value without compromising quality.</span>
                 </motion.li>
                 <motion.li
                   className="flex items-center text-foreground"
@@ -126,7 +125,7 @@ export default function Home() {
                   transition={{ duration: 0.5, delay: 0.2 }}
                 >
                   <CheckCircle className="mr-2 text-accent" />
-                  <span>Strong technical skills combined with creative problem-solving abilities</span>
+                  <span>Collaborating closely to design a website that fits your unique vision.</span>
                 </motion.li>
                 <motion.li
                   className="flex items-center text-foreground"
@@ -135,7 +134,16 @@ export default function Home() {
                   transition={{ duration: 0.5, delay: 0.4 }}
                 >
                   <CheckCircle className="mr-2 text-accent" />
-                  <span>Excellent communication and collaboration skills for seamless project execution</span>
+                  <span>Bringing modern skills and a fresh approach to every project.</span>
+                </motion.li>
+                <motion.li
+                  className="flex items-center text-foreground"
+                  initial={{ opacity: 0, x: -50 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.5, delay: 0.2 }}
+                >
+                  <CheckCircle className="mr-2 text-accent" />
+                  <span>Work is done with dedication, focusing on completing projects in the shortest time possible.</span>
                 </motion.li>
               </ul>
             </div>
